@@ -1,12 +1,28 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+# Front-End
+- skill: Front-End
+  description:  React.js, HTML, CSS, JavaScript, CSS Tailwind
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+# Back-End
+- skill: Back-End
+  description: Node.js, Express.js, MongoDB
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+# Tools
+- skill: Tools
+  description: Git, GitHub, VS Code, MongoDB Compass, Express Generator, npm 
+
+# Design Patterns
+- skill: Design Patterns
+  description: Hooks, Context APIs
+
+# APIs
+#- skill: APIs
+ # description: RESTful APIs
+
+# Methodologies
+- skill: Methodologies
+  description: Agile, CI/CD
+
+# Additional
+- skill: Additional
+  description: TypeScript (learning)  

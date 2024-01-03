@@ -1,16 +1,39 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+# Flipkart Clone
+- project: E-Commerce System
+  Technology: MERN Stack Technology
+  duration: Nov 2023 &mdash; Present
+  url: "https://github.com/satyam405/E-Commerce-System"
+  description: Developed a full-stack e-commerce platform using MERN stack, including client-side routing with React Router DOM and state management with  Redux.
+Integrated Paytm Payment Authentication System for secure transactions. Designed a responsive UI with React Hooks for efficient state management.
+Collaborated on troubleshooting and ensured a smooth user experience in a cross-functional team.
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+
+
+# Pinterest Clone
+- project: Social Media Web Application
+  Technology: MERN Stack Technology
+  duration: Oct 2023 &mdash; Nov 2023
+  url: "https://github.com/satyam405/pinterest-clone"
+  description: Developed a full-stack social media platform with MERN stack, resembling Pinterest.
+Implemented Passport and session management for secure user authentication, used Express Generator for streamlined project setup, and applied agile methodologies for efficient project management.
+Ensured data privacy and controlled access, and maintained content integrity through a robust data authentication system.
+
+
+#Instagram Clone
+- project: Instagram Clone
+  Technology: MERN Stack Technology
+  duration: Sept 2023 &mdash; Sept 2023
+  url: "https://github.com/satyam405/instagram-clone"
+  description: Created an Instagram clone using the MERN stack (MongoDB, Express.js, React.js, Node.js). Implemented secure user authentication, streamlined project setup with Express Generator, and applied agile methodologies for efficient project management.   
+
+#Apple Vision Clone
+- project: Apple Vision Clone
+  Technology: Front-End Technology
+  duration: Aug 2023 &mdash; Aug 2023
+  url: "https://satyam405.github.io/apple-vision-clone/"
+  description: Developed an Apple Vision clone project using JavaScript, HTML, and CSS, enhanced with GSAP CDN and Locomotive JS CDN for seamless animations and smooth scrolling. 
+Created an immersive user experience.
+ 

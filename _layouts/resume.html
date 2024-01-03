@@ -48,11 +48,11 @@
 
       </header>
 
-      {% if site.resume_section_experience %}
+      <!--{% if site.resume_section_experience %}-->
       <!-- begin Experience -->
-      <section class="content-section">
+      <!--<section class="content-section">-->
 
-        <header class="section-header">
+        <!--<header class="section-header">
           <h2>Experience</h2>
         </header>
 
@@ -61,12 +61,12 @@
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
           <p class="resume-item-copy">{{ job.summary }}</p>
-        </div><!-- end of resume-item -->
-        {% endfor %}
+        </div> end of resume-item -->
+       <!-- {% endfor %} -->
 
-      </section>
+      <!--</section>-->
       <!-- end Experience -->
-      {% endif %}
+     <!-- {% endif %}--> 
 
 
       {% if site.resume_section_education %}
@@ -80,7 +80,7 @@
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
           <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
-          <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
+          <!--<h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
           <p class="resume-item-copy" itemprop="description">
             <ul class="resume-item-list">
               {% for award in education.awards %}
@@ -91,7 +91,7 @@
 
           <p class="resume-item-copy">{{ education.summary }}</p>
         </div>
-        {% endfor %}
+        {% endfor %}-->
       </section>
       <!-- end Education -->
       {% endif %}
@@ -135,9 +135,9 @@
       <!-- end Skills -->
       {% endif %}
 
-      {% if site.resume_section_recognition %}
+     <!--{% if site.resume_section_recognition %}-->
       <!-- begin Recognition -->
-      <section class="content-section">
+      <!--<section class="content-section">
 
         <header class="section-header">
           <h2>Recognition</h2>
@@ -151,13 +151,13 @@
         </div>
         {% endfor %}
 
-      </section>
+      </section>-->
       <!-- end Recognition -->
-      {% endif %}
+      <!--{% endif %}-->
 
-      {% if site.resume_section_associations %}
+      <!--{% if site.resume_section_associations %}-->
       <!-- begin Associations -->
-      <section class="content-section">
+      <!--<section class="content-section">
 
         <header class="section-header">
           <h2>Associations</h2>
@@ -171,9 +171,9 @@
         </div>
         {% endfor %}
 
-      </section>
+      </section>-->
       <!-- end Associations -->
-      {% endif %}
+      <!--{% endif %}-->
 
       {% if site.resume_section_interests %}
       <!-- begin Interests -->
@@ -195,9 +195,9 @@
       <!-- end Interests -->
       {% endif %}
 
-      {% if site.resume_section_links %}
+      <!--{% if site.resume_section_links %}-->
       <!-- begin Links -->
-      <section class="content-section">
+      <!--<section class="content-section">
 
         <header class="section-header">
           <h2>Additional Links</h2>
@@ -211,13 +211,13 @@
           </ul>
         </div>
 
-      </section>
+      </section>-->
       <!-- end Links -->
-      {% endif %}
+      <!--{% endif %}-->
 
-      {% if site.resume_print_social_links %}
+      <!--{% if site.resume_print_social_links %}-->
       <!-- begin Print Social Links -->
-      <section class="content-section print-only">
+      <!--<section class="content-section print-only">
 
         <header class="section-header">
           <h2>Social Links</h2>
@@ -227,12 +227,12 @@
         {% include print-social-links.html %}
         </div>
 
-      </section>
+      </section>-->
       <!-- end Print Social Links -->
-      {% endif %}
+      <!--{% endif %}-->
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
+        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/satyam405">GitHub</a>.</p>
         <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
       </footer>
 
